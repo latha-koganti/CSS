@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(163, 215, 249);
+}
+p{
+    background-color: #2eba56;
+    color: rgb(117, 24, 193);
+}
+h3{
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    background-color: rgb(21, 224, 86);
+}
+
+/* using class attribute */
+.demo{
+    text-align: center;
+}
+.demo1{
+    color: #2eba56;
+}
+.demo2{
+    color: darkviolet;
+}
+.demo3{
+    color: blue;
+}
+
+/* using id */
+#demid{
+    text-align: center;
+}

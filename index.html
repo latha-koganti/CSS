@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      h2 {
+        text-align: center;
+        font-size: 35px;
+        background-color: aquamarine;
+        color: darkviolet;
+      }
+      #heading {
+        font-size: 50px;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- inline has more priority after that external and than internal -->
+    <!-- Inline > external > internal -->
+
+    <!-- Inline CSS -->
+    <h1
+      style="
+        color: darkviolet;
+        background-color: aquamarine;
+        text-align: center; font-size: 35px;
+      "
+    >
+      Inline CSS
+    </h1>
+    <p>
+      Defined directly in the HTML element using the style attribute. <br />
+      Applies styles to a single element.
+    </p>
+    <!-- External CSS -->
+    <h3>External CSS</h3>
+    <p>
+      Defined in a separate .css file and linked to the HTML document using the
+      <strong>link</strong> tag. <br />
+      Applies styles globally across multiple pages.
+    </p>
+    <h4 id="demid">Using Id</h4>
+    <h4 class="demo demo1">using is demo1 class</h4>
+    <h4 class="demo demo2">using is demo2 class</h4>
+    <h4 class="demo demo3">using is demo3 class</h4>
+    <!-- Internal css -->
+    <h2>Using internal CSS</h2>
+    <p>
+      Defined within the <strong>style</strong> tag in the
+      <strong>head</strong> section of the HTML document. <br />
+      Applies styles to elements across the page.
+    </p>
+  </body>
+</html>
